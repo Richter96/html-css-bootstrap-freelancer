@@ -1,0 +1,14 @@
+
+.debug [class^="col"] {
+    border: 1px dashed;
+    height: 100px;
+}
+
+.debug #app_header .col-6 {
+    height: auto;
+}
+
+.debug #portfolio [class^="col"] {
+    background-color: palegreen;
+}
+
