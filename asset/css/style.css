@@ -36,6 +36,12 @@
         max-width: 70%;
         margin: auto;
     }
+    .back_green {
+        background-color: var(--rc-green)!important;
+    }
+    .text_green {
+        color: var(--rc-green)!important;
+    }
 /* #endregion utility */
 
 /* #region about */
@@ -54,9 +60,6 @@
 
 /* #region main */
 .jambotron{background-color: var(--rc-green);}
-.back_green {
-    background-color: var(--rc-green)!important;
-}
 /* #endregion main */
 
 
