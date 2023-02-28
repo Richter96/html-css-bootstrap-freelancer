@@ -31,17 +31,29 @@
     --rc-footer1:#3a546d;
     --rc-footer2:#2c3e50;
     }
-
+    
+    .rc_container_small {
+        max-width: 70%;
+        margin: auto;
+    }
 /* #endregion utility */
+
+/* #region about */
 
 .about {
     background-color:var(--rc-green);
 }
+/* #endregion about */
 
-.rc_container_small {
-    max-width: 70%;
-    margin: auto;
+/* #region header */
+#app_header{
+    background-color: var(--rc-footer1);
 }
+
+/* #endregion header */
+
+
+/* #region footer */
 
 #app_footer .top_footer{
     background-color: var(--rc-footer1);
@@ -49,3 +61,4 @@
 #app_footer .bottom_footer {
     background-color: var(--rc-footer2);
 }
+/* #endregion footer */
