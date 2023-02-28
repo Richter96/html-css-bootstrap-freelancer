@@ -52,7 +52,14 @@
 
 /* #endregion header */
 
+/* #region main */
 .jambotron{background-color: var(--rc-green);}
+.back_green {
+    background-color: var(--rc-green)!important;
+}
+/* #endregion main */
+
+
 /* #region footer */
 
 #app_footer .top_footer{
