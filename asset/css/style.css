@@ -71,4 +71,9 @@
 #app_footer .bottom_footer {
     background-color: var(--rc-footer2);
 }
+
+.circle {
+    width: 3rem;
+    aspect-ratio: 1/1;
+}
 /* #endregion footer */

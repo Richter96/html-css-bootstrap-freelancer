@@ -51,7 +51,7 @@
                     </div>
                     <div class="col12">
                         <div class="card-body">
-                            <h1 class="card-title text-uppercase">start bootstrap</h1>
+                            <h1 class="card-title text-uppercase fs-1">start bootstrap</h1>
                             <div class="row justify-content-center">
                                 <div class="col-4">
                                     <hr class=" ms-auto border border-1 border-white rounded-pill opacity-100 w-50">
@@ -172,26 +172,22 @@
                             </div>
                         </div>
                         <div class="col-12">
-                            <div class="input-group input-group-sm mb-4 border-bottom">
-                                <span class="input-group-text border-0 bg-transparent" id="name">Name</span>
-                                <input type="text" class="form-control border-0" aria-label="Sizing example input"
-                                    aria-describedby="name">
+                            <div class="input-group flex-nowrap my-3">
+                                <input type="text" class="form-control border-0 border-bottom rounded-0"
+                                    placeholder="Name" aria-label="Name" aria-describedby="addon-wrapping">
                             </div>
-                            <div class="input-group input-group-sm mb-4 border-bottom">
-                                <span class="input-group-text border-0 bg-transparent" id="Email">Email Addres</span>
-                                <input type="text" class="form-control border-0" aria-label="Sizing example input"
-                                    aria-describedby="Email">
+                            <div class="input-group flex-nowrap my-3">
+                                <input type="text" class="form-control border-0 border-bottom rounded-0"
+                                    placeholder="Email Addres" aria-label="Email Addres"
+                                    aria-describedby="addon-wrapping">
                             </div>
-                            <div class="input-group input-group-sm mb-4 border-bottom">
-                                <span class="input-group-text border-0 bg-transparent" id="Phone_number">Phone
-                                    number</span>
-                                <input type="text" class="form-control border-0" aria-label="Sizing example input"
-                                    aria-describedby="Phone_number">
+                            <div class="input-group flex-nowrap my-3">
+                                <input type="text" class="form-control border-0 border-bottom rounded-0"
+                                    placeholder="Phone number" aria-label="Phone number"
+                                    aria-describedby="addon-wrapping">
                             </div>
-                            <div class="mb-3">
-                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                                <textarea class="form-control border-0 border-bottom" id="exampleFormControlTextarea1"
-                                    rows="3"></textarea>
+                            <div class="input-group flex-nowrap my-3">
+                                <textarea class="form-control" aria-label="With textarea" placeholder="Message"></textarea>
                             </div>
                         </div>
                         <div class="col-12">
@@ -204,37 +200,52 @@
     </main>
 
     <div id="app_footer">
-        <div class="top_footer">
+        <div class="top_footer py-5">
             <div class="container-md">
-                <div class="row text-center ">
-                    <div class="col-12 col-md-4 ">
-                        <span>LOCATION</span>
+                <div class="row text-center text-white fs-6">
+                    <div class="col-12 col-md-4 pb-4 ">
+                        <h5 class="fs-5 text-uppercase">location</h5>
                         <p>2215 Jhon Daniel Drive Clark, MO 54243</p>
-
                     </div>
-                    <div class="col-12 col-md-4 text-uppercase flex-column">
-                        <span>around the web</span>
-                        <div class=" text-center">
-                                <i class="fa-brands fa-facebook-f border border-1 rounded-5"></i>
+                    <div class="col-12 col-md-4 text-uppercase flex-column pb-5">
+                        <h5 class="fs-5">around the web</h5>
+                        <div class="d-flex justify-content-center text-center">
+                            <div
+                                class="circle d-flex align-items-center justify-content-center border border-1 rounded-5">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </div>
+                            <div
+                                class="circle d-flex align-items-center justify-content-center border border-1 rounded-5">
                                 <i class="fa-brands fa-google-plus-g"></i>
+                            </div>
+                            <div
+                                class="circle d-flex align-items-center justify-content-center border border-1 rounded-5">
                                 <i class="fa-brands fa-twitter"></i>
+                            </div>
+                            <div
+                                class="circle d-flex align-items-center justify-content-center border border-1 rounded-5">
                                 <i class="fa-brands fa-linkedin-in"></i>
+                            </div>
                         </div>
-                        
                     </div>
-                    <div class="col-12 col-md-4"></div>
+                    <div class="col-12 col-md-4 ">
+                        <h5 class="fs-5 text-uppercase">about Freelancer</h5>
+                        <p class="fs-6">Freelance is a free to use, open source Bootstrap theme created by <span
+                                class="text_green">Star Bootstrap.</span> </p>
+                    </div>
                 </div>
             </div>
         </div>
 
         <div class="bottom_footer">
             <div class="container-md">
-                <div class="row">
-                    <div class="col-12"></div>
+                <div class="row text-white fw-lighter text-center">
+                    <div class="col-12">
+                        <p class="copy m-4">Copyright © Boolean 2023 / Riccardo Castiglione</p>
+                    </div>
                 </div>
             </div>
         </div>
-
     </div>
     <!-- /#footer -->
 
